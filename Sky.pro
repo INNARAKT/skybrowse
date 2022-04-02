@@ -2,7 +2,6 @@ QT += core gui webengine webkitwidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Sky.pro
 TEMPLATE = QMAKE_APP_FLAG
 
 CONFIG += c++11

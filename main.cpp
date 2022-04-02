@@ -1,9 +1,9 @@
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
+//#include <QApplication>//
+//#include <QQmlApplicationEngine>//
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    /*QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
 
@@ -16,5 +16,5 @@ int main(int argc, char *argv[])
     }, Qt::QueuedConnection);
     engine.load(url);
 
-    return app.exec();
+    return app.exec();*/
 }
